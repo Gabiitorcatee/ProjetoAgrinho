@@ -7,7 +7,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .cabeçalho{
-background-color: blue ;
+background-color: rgb(102, 25, 227) ;
 color: white;
 display: flex;
 justify-content: space-around;
@@ -27,7 +27,7 @@ width: 25%;
 }
 
 .escritora{
-background: linear-gradient(180deg, #383D58 0%, #4EBFE9 100%);
+background: linear-gradient(180deg, #6e33d3 0%, #965ce1 100%);
 color: white;
 display: flex;
 justify-content: center;
