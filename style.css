@@ -60,14 +60,14 @@ body {
 
 .instagram-icon {
     width: 24px;
-    vertical-align: middle;
-    margin-right: 8px;
+    display: block;
+    margin:0 auto 8px;
 }
 
 .instagram-link a {
     font-family: var(--fonte-secundaria);
     font-size: 18px;
-    color: var(--cor-primaria);
+    color: white;
     text-decoration: none;
     transition: color 0.3s;
 }
