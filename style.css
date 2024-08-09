@@ -1,67 +1,63 @@
-/* Definição das variáveis */
 :root {
     --cor-primaria: rgb(102, 25, 227);
     --cor-secundaria: #965ce1;
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-secundaria: 'Playfair Display', serif;
-  }
-  
-  /* Estilos globais */
-  body {
+}
+
+body {
     font-family: var(--fonte-principal);
-  }
-  
-  /* Estilos do cabeçalho */
-  .cabeçalho {
+}
+
+.cabeçalho {
     background-color: var(--cor-primaria);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
-  }
-  
-  .cabeçalho-imagem {
+}
+
+.cabeçalho-imagem {
     width: 20%;
-  }
-  
-  .cabeçalho-lista {
+}
+
+.cabeçalho-lista {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .cabeçalho-lista-item {
+}
+
+.cabeçalho-lista-item {
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     display: inline-block;
     margin: 0 16px;
     transition: background-color 0.3s, text-decoration 0.3s;
-  }
-  
-  .cabeçalho-lista-item:hover {
+}
+
+.cabeçalho-lista-item:hover {
     background-color: var(--cor-secundaria);
     text-decoration: underline;
-  }
-  
-  /* Estilos da seção da escritora */
-  .escritora {
+}
+
+.escritora {
     background: linear-gradient(180deg, #6e33d3 0%, #965ce1 100%);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-  }
-  
-  .escritora-div-conteudo {
+}
+
+.escritora-div-conteudo {
     width: 35%;
-  }
-  
-  .escritora-titulo {
+}
+
+.escritora-titulo {
     padding: 24px 0;
-  }
-  
-  .escritora-imagem {
+}
+
+.escritora-imagem {
     width: 120px;
-  }
+}
