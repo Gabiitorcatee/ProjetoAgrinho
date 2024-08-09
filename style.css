@@ -53,6 +53,28 @@ body {
 .escritora-div-conteudo {
     width: 35%;
 }
+.instagram-link {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.instagram-icon {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.instagram-link a {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.instagram-link a:hover {
+    color: var(--cor-secundaria);
+}
 
 .escritora-titulo {
     padding: 24px 0;
